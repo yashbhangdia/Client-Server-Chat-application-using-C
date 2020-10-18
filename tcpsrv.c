@@ -50,7 +50,7 @@ int main()
         bzero(buff,80);
         fgets(buff,80,stdin);
 
-        if((strncmp(buff, "end", 4)) == 0) { 
+        if((strncmp(buff, "end", 3)) == 0) { 
             printf("Server Exit...\n"); 
             break; 
         } 
